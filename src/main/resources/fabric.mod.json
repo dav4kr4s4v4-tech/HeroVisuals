@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "herovisuals",
+  "version": "${version}",
+  "name": "HeroVisuals",
+  "description": "A beautiful Fabric visual client",
+  "authors": [
+    "Hero"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.hero.HeroVisuals"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "fabric": "*",
+    "minecraft": "1.21.11"
+  }
+}
